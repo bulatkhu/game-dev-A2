@@ -1563,6 +1563,7 @@ GameObject:
   - component: {fileID: 476451028}
   - component: {fileID: 476451027}
   - component: {fileID: 476451030}
+  - component: {fileID: 476451031}
   m_Layer: 0
   m_Name: Penguin
   m_TagString: Untagged
@@ -1675,6 +1676,63 @@ MonoBehaviour:
   background: {fileID: 1334142988}
   discoLightsParent: {fileID: 1386544674}
   circleGrowthRate: 0.5
+--- !u!114 &476451031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476451026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91831c0bc10181341894e3c6b4c00ece, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalGameObjects:
+  - {fileID: 1274735237}
+  - {fileID: 312148487}
+  - {fileID: 633990361}
+  - {fileID: 19004795}
+  - {fileID: 2100949007}
+  - {fileID: 1768733382}
+  - {fileID: 47266159}
+  - {fileID: 30124175}
+  - {fileID: 1318065340}
+  - {fileID: 443826140}
+  - {fileID: 66719316}
+  - {fileID: 1593749440}
+  - {fileID: 872220636}
+  - {fileID: 879083073}
+  - {fileID: 1480635192}
+  - {fileID: 330287155}
+  - {fileID: 1448749233}
+  - {fileID: 1236578222}
+  - {fileID: 17388979}
+  - {fileID: 1730429587}
+  - {fileID: 1099681622}
+  - {fileID: 743216947}
+  - {fileID: 969662468}
+  - {fileID: 1953123448}
+  - {fileID: 2094149403}
+  - {fileID: 427922044}
+  - {fileID: 81340079}
+  - {fileID: 59860021}
+  - {fileID: 1647370447}
+  - {fileID: 1476962729}
+  - {fileID: 1863864455}
+  - {fileID: 932838791}
+  - {fileID: 702930912}
+  - {fileID: 1637742023}
+  - {fileID: 856521345}
+  - {fileID: 1271575838}
+  - {fileID: 1207961090}
+  - {fileID: 463022956}
+  - {fileID: 1689485727}
+  - {fileID: 328338287}
+  - {fileID: 447298665}
+  - {fileID: 835310470}
+  - {fileID: 1378135628}
+  dogeSprite: {fileID: 21300000, guid: 0d4f0a4b68920f7459fde8ad2d50ea20, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
