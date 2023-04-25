@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class mover : MonoBehaviour
 {
-    float speed = 5f;
+    public float speed = 5f;
     private Dance1 penguinDance;
 
     void Start()
