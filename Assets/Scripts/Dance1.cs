@@ -212,7 +212,6 @@ public class Dance1 : MonoBehaviour
         Vector3 jumpPosition = startPosition + Vector3.up * jumpHeight;
         Vector3 endPosition = startPosition - Vector3.right * moveDistance;
 
-
         // Disable the background object
         if (background != null)
         {
@@ -274,27 +273,47 @@ public class Dance1 : MonoBehaviour
             float scaleFactor = Mathf.Lerp(2f, 1f, time / 1f);
             transform.localScale = Vector3.one * scaleFactor;
             transform.position = Vector3.Lerp(endPosition, startPosition, time / 1f);
-            transform.Rotate(Vector3.forward, rotateSpeed * Time.deltaTime);
             time += Time.deltaTime;
             yield return null;
         }
 
-        // Stop rotating and reset scale and position
-        transform.rotation = Quaternion.identity;
-        transform.localScale = Vector3.one;
-        transform.position = startPosition;
-
-        // Enable the background object and set its color back to white
-        if (background != null)
+        // Vanish for 1 second
+        time = 0f;
+        while (time < 1f)
         {
-            background.GetComponent<Renderer>().material.color = Color.white;
+            float alpha = Mathf.Lerp(1f, 0f, time / 1f);
+            var spriteRenderer = GetComponent<SpriteRenderer>();
+            var color = spriteRenderer;
+            // Stop rotating and reset scale and position
+            transform.localScale = Vector3.one;
+            transform.position = startPosition;
+            // Vanish for 1 second
+            time = 0f;
+            while (time < 1f)
+            {
+                float scaleFactor = Mathf.Lerp(1f, 0f, time / 1f);
+                transform.localScale = Vector3.one * scaleFactor;
+                time += Time.deltaTime;
+
+                yield return null;
+            }
+
+            transform.rotation = Quaternion.identity;
+            // Enable the background object and set its color back to white
+            if (background != null)
+            {
+                background.GetComponent<Renderer>().material.color = Color.white;
+            }
+            // Reset scale and position to original values
+            transform.localScale = Vector3.one;
+            transform.position = startPosition;
+
+            IsDancing = false;
         }
-        isPerformingDanceMove4 = false;
-        IsDancing = false;
     }
 
 
-    public IEnumerator PerformDanceMove6()
+        public IEnumerator PerformDanceMove6()
     {
         IsDancing = true;
         float time = 0f;
