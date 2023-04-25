@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 17388981}
   - component: {fileID: 17388980}
+  - component: {fileID: 17388982}
   m_Layer: 0
   m_Name: Crocodile
   m_TagString: Untagged
@@ -178,8 +179,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e46df0c30dd6b1f4f96901c7a1e773d0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -207,6 +208,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &17388982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17388979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &19004795
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,6 +235,7 @@ GameObject:
   m_Component:
   - component: {fileID: 19004796}
   - component: {fileID: 19004797}
+  - component: {fileID: 19004798}
   m_Layer: 0
   m_Name: Parrot
   m_TagString: Untagged
@@ -291,6 +310,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &19004798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19004795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &30124175
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,6 +337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 30124177}
   - component: {fileID: 30124176}
+  - component: {fileID: 30124178}
   m_Layer: 0
   m_Name: Chicken
   m_TagString: Untagged
@@ -346,8 +383,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: fc4616bc485809a4bb3ad74dcf94b21a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -375,6 +412,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &30124178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30124175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &47266159
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,6 +439,7 @@ GameObject:
   m_Component:
   - component: {fileID: 47266161}
   - component: {fileID: 47266160}
+  - component: {fileID: 47266162}
   m_Layer: 0
   m_Name: Buffalo
   m_TagString: Untagged
@@ -430,8 +485,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ca5927e8e21aa2e48b3ef5a21ff295eb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -459,6 +514,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &47266162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47266159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &59860021
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,6 +541,7 @@ GameObject:
   m_Component:
   - component: {fileID: 59860023}
   - component: {fileID: 59860022}
+  - component: {fileID: 59860024}
   m_Layer: 0
   m_Name: Rabbit
   m_TagString: Untagged
@@ -514,8 +587,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 286a76a17dbaffb40b66babbfc02a2e0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -543,6 +616,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &59860024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59860021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &66719316
 GameObject:
   m_ObjectHideFlags: 0
@@ -553,6 +643,7 @@ GameObject:
   m_Component:
   - component: {fileID: 66719318}
   - component: {fileID: 66719317}
+  - component: {fileID: 66719319}
   m_Layer: 0
   m_Name: Pig (1)
   m_TagString: Untagged
@@ -598,8 +689,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3e324683cde883146bcdb68cf7dd65bc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -627,6 +718,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &66719319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66719316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &81340079
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,6 +745,7 @@ GameObject:
   m_Component:
   - component: {fileID: 81340081}
   - component: {fileID: 81340080}
+  - component: {fileID: 81340082}
   m_Layer: 0
   m_Name: Chick
   m_TagString: Untagged
@@ -682,8 +791,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de843e62a29d2f040b0b68e75b8a7fe4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -711,6 +820,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &81340082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81340079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &312148487
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,6 +847,7 @@ GameObject:
   m_Component:
   - component: {fileID: 312148488}
   - component: {fileID: 312148489}
+  - component: {fileID: 312148490}
   m_Layer: 0
   m_Name: Horse
   m_TagString: Untagged
@@ -795,6 +922,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &312148490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312148487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &328338287
 GameObject:
   m_ObjectHideFlags: 0
@@ -805,6 +949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 328338289}
   - component: {fileID: 328338288}
+  - component: {fileID: 328338290}
   m_Layer: 0
   m_Name: Dog (1)
   m_TagString: Untagged
@@ -850,8 +995,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 45af20779c777dd49807ed0efb3318b8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -879,6 +1024,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &328338290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328338287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &330287155
 GameObject:
   m_ObjectHideFlags: 0
@@ -889,6 +1051,7 @@ GameObject:
   m_Component:
   - component: {fileID: 330287157}
   - component: {fileID: 330287156}
+  - component: {fileID: 330287158}
   m_Layer: 0
   m_Name: Snake
   m_TagString: Untagged
@@ -934,8 +1097,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e1fb3c7f627494241963cabbbf97ad2e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -963,6 +1126,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &330287158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330287155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &427922044
 GameObject:
   m_ObjectHideFlags: 0
@@ -973,6 +1153,7 @@ GameObject:
   m_Component:
   - component: {fileID: 427922046}
   - component: {fileID: 427922045}
+  - component: {fileID: 427922047}
   m_Layer: 0
   m_Name: Rhino
   m_TagString: Untagged
@@ -1018,8 +1199,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 370cffe6c74f0ac4cb28b5b959ee8e79, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1047,6 +1228,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &427922047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427922044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &443826140
 GameObject:
   m_ObjectHideFlags: 0
@@ -1057,6 +1255,7 @@ GameObject:
   m_Component:
   - component: {fileID: 443826142}
   - component: {fileID: 443826141}
+  - component: {fileID: 443826143}
   m_Layer: 0
   m_Name: Pig
   m_TagString: Untagged
@@ -1102,8 +1301,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3e324683cde883146bcdb68cf7dd65bc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1131,6 +1330,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &443826143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443826140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &447298665
 GameObject:
   m_ObjectHideFlags: 0
@@ -1141,6 +1357,7 @@ GameObject:
   m_Component:
   - component: {fileID: 447298667}
   - component: {fileID: 447298666}
+  - component: {fileID: 447298668}
   m_Layer: 0
   m_Name: Cow (2)
   m_TagString: Untagged
@@ -1186,8 +1403,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9a46cd964d798ff44bf498691923dac3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1215,6 +1432,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &447298668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447298665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &463022956
 GameObject:
   m_ObjectHideFlags: 0
@@ -1225,6 +1459,7 @@ GameObject:
   m_Component:
   - component: {fileID: 463022958}
   - component: {fileID: 463022957}
+  - component: {fileID: 463022959}
   m_Layer: 0
   m_Name: Hippo (1)
   m_TagString: Untagged
@@ -1270,8 +1505,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 48f13ca049f06a94f98c22a9851bc177, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1299,6 +1534,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &463022959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463022956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &476451026
 GameObject:
   m_ObjectHideFlags: 0
@@ -1310,6 +1562,7 @@ GameObject:
   - component: {fileID: 476451029}
   - component: {fileID: 476451028}
   - component: {fileID: 476451027}
+  - component: {fileID: 476451030}
   m_Layer: 0
   m_Name: Penguin
   m_TagString: Untagged
@@ -1329,6 +1582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7448a82e35df241951022302146226, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
 --- !u!212 &476451028
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1396,6 +1650,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &476451030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476451026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd92cd77fcdaa94a9551509864d6985, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dance1Key: 49
+  dance2Key: 50
+  dance3Key: 51
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1506,6 +1778,7 @@ GameObject:
   m_Component:
   - component: {fileID: 633990362}
   - component: {fileID: 633990363}
+  - component: {fileID: 633990364}
   m_Layer: 0
   m_Name: Narwhal
   m_TagString: Untagged
@@ -1580,6 +1853,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &633990364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633990361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &702930912
 GameObject:
   m_ObjectHideFlags: 0
@@ -1590,6 +1880,7 @@ GameObject:
   m_Component:
   - component: {fileID: 702930914}
   - component: {fileID: 702930913}
+  - component: {fileID: 702930915}
   m_Layer: 0
   m_Name: Duck
   m_TagString: Untagged
@@ -1635,8 +1926,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4096df8213204204fb7cb9e429ffe88c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1664,6 +1955,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &702930915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702930912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &743216947
 GameObject:
   m_ObjectHideFlags: 0
@@ -1674,6 +1982,7 @@ GameObject:
   m_Component:
   - component: {fileID: 743216949}
   - component: {fileID: 743216948}
+  - component: {fileID: 743216950}
   m_Layer: 0
   m_Name: Moose
   m_TagString: Untagged
@@ -1719,8 +2028,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 7782b8835af9ffc4497331f16f1a4fe0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1748,6 +2057,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &743216950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743216947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &835310470
 GameObject:
   m_ObjectHideFlags: 0
@@ -1758,6 +2084,7 @@ GameObject:
   m_Component:
   - component: {fileID: 835310472}
   - component: {fileID: 835310471}
+  - component: {fileID: 835310473}
   m_Layer: 0
   m_Name: Chick (1)
   m_TagString: Untagged
@@ -1803,8 +2130,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de843e62a29d2f040b0b68e75b8a7fe4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1832,6 +2159,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &835310473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835310470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &856521345
 GameObject:
   m_ObjectHideFlags: 0
@@ -1842,6 +2186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 856521347}
   - component: {fileID: 856521346}
+  - component: {fileID: 856521348}
   m_Layer: 0
   m_Name: Sloth
   m_TagString: Untagged
@@ -1887,8 +2232,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d5793f680f29a2244b8071e83b97b312, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1916,6 +2261,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &856521348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856521345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &872220636
 GameObject:
   m_ObjectHideFlags: 0
@@ -1926,6 +2288,7 @@ GameObject:
   m_Component:
   - component: {fileID: 872220638}
   - component: {fileID: 872220637}
+  - component: {fileID: 872220639}
   m_Layer: 0
   m_Name: Frog
   m_TagString: Untagged
@@ -1971,8 +2334,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b0d71e0f634eff341bb6822b2708817b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2000,6 +2363,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &872220639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872220636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &879083073
 GameObject:
   m_ObjectHideFlags: 0
@@ -2010,6 +2390,7 @@ GameObject:
   m_Component:
   - component: {fileID: 879083075}
   - component: {fileID: 879083074}
+  - component: {fileID: 879083076}
   m_Layer: 0
   m_Name: Parrot
   m_TagString: Untagged
@@ -2055,8 +2436,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de6b0784b88b27049b5e4b7e426fae33, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2084,6 +2465,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &879083076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879083073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &932838791
 GameObject:
   m_ObjectHideFlags: 0
@@ -2094,6 +2492,7 @@ GameObject:
   m_Component:
   - component: {fileID: 932838793}
   - component: {fileID: 932838792}
+  - component: {fileID: 932838794}
   m_Layer: 0
   m_Name: Goat
   m_TagString: Untagged
@@ -2139,8 +2538,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f5206607047fb5a4888eb053f2822aed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2168,6 +2567,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &932838794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932838791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &969662468
 GameObject:
   m_ObjectHideFlags: 0
@@ -2178,6 +2594,7 @@ GameObject:
   m_Component:
   - component: {fileID: 969662470}
   - component: {fileID: 969662469}
+  - component: {fileID: 969662471}
   m_Layer: 0
   m_Name: Narwhal
   m_TagString: Untagged
@@ -2223,8 +2640,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: addf81b2344d04d42b8763f8518417ae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2252,6 +2669,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &969662471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969662468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &1005341315
 GameObject:
   m_ObjectHideFlags: 0
@@ -2336,6 +2770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1099681624}
   - component: {fileID: 1099681623}
+  - component: {fileID: 1099681625}
   m_Layer: 0
   m_Name: Horse
   m_TagString: Untagged
@@ -2381,8 +2816,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d0058372d56fb404db2caed99ac788d5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2410,6 +2845,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1099681625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099681622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &1207961090
 GameObject:
   m_ObjectHideFlags: 0
@@ -2420,6 +2872,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1207961092}
   - component: {fileID: 1207961091}
+  - component: {fileID: 1207961093}
   m_Layer: 0
   m_Name: Cow (1)
   m_TagString: Untagged
@@ -2465,8 +2918,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9a46cd964d798ff44bf498691923dac3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2494,6 +2947,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1207961093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207961090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &1236578222
 GameObject:
   m_ObjectHideFlags: 0
@@ -2504,6 +2974,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1236578224}
   - component: {fileID: 1236578223}
+  - component: {fileID: 1236578225}
   m_Layer: 0
   m_Name: Chicken (1)
   m_TagString: Untagged
@@ -2549,8 +3020,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: fc4616bc485809a4bb3ad74dcf94b21a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2578,6 +3049,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1236578225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236578222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &1271575838
 GameObject:
   m_ObjectHideFlags: 0
@@ -2588,6 +3076,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1271575840}
   - component: {fileID: 1271575839}
+  - component: {fileID: 1271575841}
   m_Layer: 0
   m_Name: Cow
   m_TagString: Untagged
@@ -2633,8 +3122,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9a46cd964d798ff44bf498691923dac3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2662,6 +3151,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1271575841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271575838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &1274735237
 GameObject:
   m_ObjectHideFlags: 0
@@ -2672,6 +3178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1274735238}
   - component: {fileID: 1274735239}
+  - component: {fileID: 1274735240}
   m_Layer: 0
   m_Name: Giraffe
   m_TagString: Untagged
@@ -2746,6 +3253,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1274735240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274735237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &1318065340
 GameObject:
   m_ObjectHideFlags: 0
@@ -2756,6 +3280,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1318065342}
   - component: {fileID: 1318065341}
+  - component: {fileID: 1318065343}
   m_Layer: 0
   m_Name: Hippo
   m_TagString: Untagged
@@ -2801,8 +3326,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 48f13ca049f06a94f98c22a9851bc177, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2830,6 +3355,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1318065343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318065340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &1334142988
 GameObject:
   m_ObjectHideFlags: 0
@@ -2840,6 +3382,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1334142989}
   - component: {fileID: 1334142990}
+  - component: {fileID: 1334142991}
   m_Layer: 0
   m_Name: DiscoBackground4
   m_TagString: Untagged
@@ -2901,7 +3444,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -821215893
-  m_SortingLayer: -2
+  m_SortingLayer: -3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 93caa0c3b007a2a49a14f3d8f647042d, type: 3}
   m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
@@ -2914,6 +3457,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1334142991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334142988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5636547151a87da4c89f5790bb57a866, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  discoLightPrefab: {fileID: 7965484268245573649, guid: 0392471e130b68c439aa5f7a9be878a5, type: 3}
 --- !u!1 &1378135628
 GameObject:
   m_ObjectHideFlags: 0
@@ -2924,6 +3480,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1378135630}
   - component: {fileID: 1378135629}
+  - component: {fileID: 1378135631}
   m_Layer: 0
   m_Name: Gorilla (1)
   m_TagString: Untagged
@@ -2969,8 +3526,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4c8cac58f0e54d14f8cb72bebb377817, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2998,6 +3555,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1378135631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378135628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &1448749233
 GameObject:
   m_ObjectHideFlags: 0
@@ -3008,6 +3582,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1448749235}
   - component: {fileID: 1448749234}
+  - component: {fileID: 1448749236}
   m_Layer: 0
   m_Name: Zebra
   m_TagString: Untagged
@@ -3053,8 +3628,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d0e52f392b74bab48a41d1333548f315, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3082,6 +3657,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1448749236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448749233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &1476962729
 GameObject:
   m_ObjectHideFlags: 0
@@ -3092,6 +3684,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1476962731}
   - component: {fileID: 1476962730}
+  - component: {fileID: 1476962732}
   m_Layer: 0
   m_Name: Monkey
   m_TagString: Untagged
@@ -3137,8 +3730,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1f31a989220d5104c82c93fb02fe46c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3166,6 +3759,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1476962732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476962729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &1480635192
 GameObject:
   m_ObjectHideFlags: 0
@@ -3176,6 +3786,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1480635194}
   - component: {fileID: 1480635193}
+  - component: {fileID: 1480635195}
   m_Layer: 0
   m_Name: Panda (1)
   m_TagString: Untagged
@@ -3221,8 +3832,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c50c6606e5c9fa9459ac856eefeaf10d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3250,6 +3861,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1480635195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480635192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &1593749440
 GameObject:
   m_ObjectHideFlags: 0
@@ -3260,6 +3888,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1593749442}
   - component: {fileID: 1593749441}
+  - component: {fileID: 1593749443}
   m_Layer: 0
   m_Name: Panda
   m_TagString: Untagged
@@ -3305,8 +3934,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c50c6606e5c9fa9459ac856eefeaf10d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3334,6 +3963,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1593749443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593749440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &1637742023
 GameObject:
   m_ObjectHideFlags: 0
@@ -3344,6 +3990,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1637742025}
   - component: {fileID: 1637742024}
+  - component: {fileID: 1637742026}
   m_Layer: 0
   m_Name: Elephant (1)
   m_TagString: Untagged
@@ -3389,8 +4036,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0a0ed07e5a16b7c42b008d2edb090b43, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3418,6 +4065,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1637742026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637742023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &1647370447
 GameObject:
   m_ObjectHideFlags: 0
@@ -3428,6 +4092,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1647370449}
   - component: {fileID: 1647370448}
+  - component: {fileID: 1647370450}
   m_Layer: 0
   m_Name: Gorilla
   m_TagString: Untagged
@@ -3473,8 +4138,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4c8cac58f0e54d14f8cb72bebb377817, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3502,6 +4167,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1647370450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647370447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &1689485727
 GameObject:
   m_ObjectHideFlags: 0
@@ -3512,6 +4194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1689485729}
   - component: {fileID: 1689485728}
+  - component: {fileID: 1689485730}
   m_Layer: 0
   m_Name: Dog
   m_TagString: Untagged
@@ -3557,8 +4240,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 45af20779c777dd49807ed0efb3318b8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3586,6 +4269,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1689485730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689485727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &1730429587
 GameObject:
   m_ObjectHideFlags: 0
@@ -3596,6 +4296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1730429589}
   - component: {fileID: 1730429588}
+  - component: {fileID: 1730429590}
   m_Layer: 0
   m_Name: Crocodile (1)
   m_TagString: Untagged
@@ -3641,8 +4342,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e46df0c30dd6b1f4f96901c7a1e773d0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3670,6 +4371,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1730429590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730429587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &1768733382
 GameObject:
   m_ObjectHideFlags: 0
@@ -3680,6 +4398,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1768733384}
   - component: {fileID: 1768733383}
+  - component: {fileID: 1768733385}
   m_Layer: 0
   m_Name: Bear
   m_TagString: Untagged
@@ -3725,8 +4444,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cf77cfa5e97d7794fa0a943d232775da, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3754,6 +4473,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1768733385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768733382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &1863864455
 GameObject:
   m_ObjectHideFlags: 0
@@ -3764,6 +4500,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1863864457}
   - component: {fileID: 1863864456}
+  - component: {fileID: 1863864458}
   m_Layer: 0
   m_Name: Monkey (1)
   m_TagString: Untagged
@@ -3809,8 +4546,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1f31a989220d5104c82c93fb02fe46c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3838,6 +4575,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1863864458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863864455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &1953123448
 GameObject:
   m_ObjectHideFlags: 0
@@ -3848,6 +4602,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1953123450}
   - component: {fileID: 1953123449}
+  - component: {fileID: 1953123451}
   m_Layer: 0
   m_Name: Elephant
   m_TagString: Untagged
@@ -3893,8 +4648,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0a0ed07e5a16b7c42b008d2edb090b43, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3922,6 +4677,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1953123451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953123448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &1979168432
 GameObject:
   m_ObjectHideFlags: 0
@@ -3953,8 +4725,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   background: {fileID: 1334142990}
   brightnessStep: 0.1
-  darkenKey: 111
-  brightenKey: 112
 --- !u!4 &1979168434
 Transform:
   m_ObjectHideFlags: 0
@@ -3980,6 +4750,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2094149405}
   - component: {fileID: 2094149404}
+  - component: {fileID: 2094149406}
   m_Layer: 0
   m_Name: Walrus
   m_TagString: Untagged
@@ -4025,8 +4796,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a707d748b409fd24f83d0bf9d5828a65, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4054,6 +4825,23 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2094149406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094149403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
 --- !u!1 &2100949007
 GameObject:
   m_ObjectHideFlags: 0
@@ -4064,6 +4852,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2100949009}
   - component: {fileID: 2100949008}
+  - component: {fileID: 2100949010}
   m_Layer: 0
   m_Name: Whale
   m_TagString: Untagged
@@ -4109,8 +4898,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1754233951
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2c7c69a3130abe2498443ac161b9af13, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4138,3 +4927,77 @@ Transform:
   m_Father: {fileID: 1005341316}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2100949010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100949007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cab7a58baaced4eb90fc23f6346264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 1
+  moveDuration: 1
+  rotationDuration: 1
+  minTimeBetweenMoves: 2
+  maxTimeBetweenMoves: 5
+--- !u!1001 &204535070987317945
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 204535071769234584, guid: eeaa0c9ddeae4d147920714a9f6be566, type: 3}
+      propertyPath: m_Name
+      value: Lights
+      objectReference: {fileID: 0}
+    - target: {fileID: 204535071769234587, guid: eeaa0c9ddeae4d147920714a9f6be566, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 204535071769234587, guid: eeaa0c9ddeae4d147920714a9f6be566, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0444399
+      objectReference: {fileID: 0}
+    - target: {fileID: 204535071769234587, guid: eeaa0c9ddeae4d147920714a9f6be566, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.04502537
+      objectReference: {fileID: 0}
+    - target: {fileID: 204535071769234587, guid: eeaa0c9ddeae4d147920714a9f6be566, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.863959
+      objectReference: {fileID: 0}
+    - target: {fileID: 204535071769234587, guid: eeaa0c9ddeae4d147920714a9f6be566, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 204535071769234587, guid: eeaa0c9ddeae4d147920714a9f6be566, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 204535071769234587, guid: eeaa0c9ddeae4d147920714a9f6be566, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 204535071769234587, guid: eeaa0c9ddeae4d147920714a9f6be566, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 204535071769234587, guid: eeaa0c9ddeae4d147920714a9f6be566, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 204535071769234587, guid: eeaa0c9ddeae4d147920714a9f6be566, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 204535071769234587, guid: eeaa0c9ddeae4d147920714a9f6be566, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eeaa0c9ddeae4d147920714a9f6be566, type: 3}

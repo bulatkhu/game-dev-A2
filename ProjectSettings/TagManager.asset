@@ -41,6 +41,9 @@ TagManager:
   - name: lowest
     uniqueID: 3473751403
     locked: 0
+  - name: lower
+    uniqueID: 3760615129
+    locked: 0
   - name: low
     uniqueID: 2540733345
     locked: 0
