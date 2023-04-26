@@ -235,11 +235,12 @@ public class InputTracker : MonoBehaviour
     }
 
 
-
     private IEnumerator SpawnGameOverAnimation()
     {
         // Spawn gameover sprite in the middle and grow in size
-        GameObject gameOver = Instantiate(gameOverPrefab, Vector3.zero, Quaternion.identity);
+        Vector3 gameOverPosition = Camera.main.transform.position;
+        gameOverPosition.z = -1f;
+        GameObject gameOver = Instantiate(gameOverPrefab, gameOverPosition, Quaternion.identity);
         gameOver.transform.localScale = Vector3.zero;
 
         float elapsedTime = 0f;
@@ -255,8 +256,13 @@ public class InputTracker : MonoBehaviour
         int spawnedShyGuysCount = 0;
         while (spawnedShyGuysCount < 50)
         {
-            Vector3 startPosition = new Vector3(Camera.main.aspect * Camera.main.orthographicSize, Random.Range(-Camera.main.orthographicSize, Camera.main.orthographicSize), 0f);
+            Vector3 startPosition = Camera.main.transform.position + new Vector3(Camera.main.aspect * Camera.main.orthographicSize, Random.Range(-Camera.main.orthographicSize, Camera.main.orthographicSize), -1f);
             GameObject shyGuy = Instantiate(shyGuyPrefab, startPosition, Quaternion.identity);
+
+            // Set z-axis position to -1
+            Vector3 shyGuyPosition = shyGuy.transform.position;
+            shyGuyPosition.z = -1f;
+            shyGuy.transform.position = shyGuyPosition;
 
             SpriteRenderer spriteRenderer = shyGuy.GetComponent<SpriteRenderer>();
             Color newColor;
@@ -279,9 +285,11 @@ public class InputTracker : MonoBehaviour
     private IEnumerator MoveShyGuyToLeft(GameObject shyGuy)
     {
         float elapsedTime = 0f;
-        float moveDuration = Camera.main.aspect * Camera.main.orthographicSize * 2f / 5;
+        float moveDuration = (Camera.main.aspect * Camera.main.orthographicSize * 2f / 5);
+
         Vector3 startPosition = shyGuy.transform.position;
-        Vector3 endPosition = new Vector3(-Camera.main.aspect * Camera.main.orthographicSize, startPosition.y, startPosition.z);
+        Vector3 endPosition = Camera.main.transform.position + new Vector3(-Camera.main.aspect * Camera.main.orthographicSize - 3f, startPosition.y - Camera.main.transform.position.y, -1f);
+
 
         while (elapsedTime < moveDuration)
         {
@@ -293,5 +301,8 @@ public class InputTracker : MonoBehaviour
 
         Destroy(shyGuy);
     }
+
+
+
 
 }
