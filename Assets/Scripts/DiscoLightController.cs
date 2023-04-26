@@ -22,14 +22,14 @@ public class DiscoLightController : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if (inputtracker.isSquidGameMode == true && timer >= 2.5f && isRed == false)
+        if (inputtracker.isSquidGameMode == true && timer >= 2.75f && isRed == false)
         {
             spriteRenderer.color = new Color(1f,0f,0f, 1f);
             timer = 0f;
             isRed = true;
         }
 
-        else if (inputtracker.isSquidGameMode == true && timer >= 1.5f && isRed == true)
+        else if (inputtracker.isSquidGameMode == true && timer >= 1.25f && isRed == true)
         {
             spriteRenderer.color = new Color(0f, 1f, 0f, 1f);
             timer = 0f;

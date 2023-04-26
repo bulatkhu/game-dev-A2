@@ -1734,6 +1734,12 @@ MonoBehaviour:
   - {fileID: 1378135628}
   dogeSprite: {fileID: 21300000, guid: 0d4f0a4b68920f7459fde8ad2d50ea20, type: 3}
   isSquidGameMode: 0
+  starSprite: {fileID: 21300000, guid: d265d2fe40908c849bd7a59544c4a32c, type: 3}
+  starPrefab: {fileID: 4221872707954239754, guid: ff9456eb339d9724f9e6ed84ec1e6a3f, type: 3}
+  mushroomSprite: {fileID: 21300000, guid: 309a491630aaffc4eaa174c4d6b63824, type: 3}
+  mushroomPrefab: {fileID: 4053321979065532538, guid: 3b68f3611dfb0cf4c97e63f7b121f0bb, type: 3}
+  shyGuyPrefab: {fileID: 5983356722326059006, guid: 7fd3c4fc83daa8046a561d11c6f9a4d5, type: 3}
+  gameOverPrefab: {fileID: 8445497953906115323, guid: 75cb3e33bcc54d841b9d4c1be0736081, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1788,7 +1794,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.3897214
+  orthographic size: 5.35
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
