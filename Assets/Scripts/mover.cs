@@ -6,6 +6,7 @@ public class mover : MonoBehaviour
 {
     public float speed = 5f;
     private Dance1 penguinDance;
+    private InputTracker inputtracker => FindObjectOfType<InputTracker>();
 
     void Start()
     {
@@ -24,10 +25,38 @@ public class mover : MonoBehaviour
     {
         Vector3 moveVector = Vector3.zero;
 
-        if (Input.GetKey(KeyCode.W)) moveVector.y = 1;
-        if (Input.GetKey(KeyCode.A)) moveVector.x = -1;
-        if (Input.GetKey(KeyCode.S)) moveVector.y = -1;
-        if (Input.GetKey(KeyCode.D)) moveVector.x = 1;
+        if (Input.GetKey(KeyCode.W))
+        {
+            moveVector.y = 1;
+            if (inputtracker.isSquidGameMode)
+            {
+                inputtracker.isSquidGameMode = false;
+            }
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            moveVector.x = -1;
+            if (inputtracker.isSquidGameMode)
+            {
+                inputtracker.isSquidGameMode = false;
+            }
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            moveVector.y = -1;
+            if (inputtracker.isSquidGameMode)
+            {
+                inputtracker.isSquidGameMode = false;
+            }
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            moveVector.x = 1;
+            if (inputtracker.isSquidGameMode)
+            {
+                inputtracker.isSquidGameMode = false;
+            }
+        }
 
         moveVector.Normalize();
 

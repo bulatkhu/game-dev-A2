@@ -12,10 +12,32 @@ public class AnimalDancer : MonoBehaviour
     private Vector3 startPosition;
     private bool isDancing;
 
+    private DiscoLightController discolightcontroller => FindObjectOfType<DiscoLightController>();
+
+    private InputTracker inputtracker => FindObjectOfType<InputTracker>();
+
+
     private void Start()
     {
         startPosition = transform.position;
         StartCoroutine(PerformRandomDanceMoves());
+    }
+  
+    private void Update()
+    {
+        Renderer objectRenderer = GetComponent<Renderer>();
+
+
+        if (inputtracker.isSquidGameMode == false)
+        {
+            objectRenderer.material.color = new Color(1f, 1f, 1f, 1f);
+            objectRenderer.enabled = true;
+        }
+        else if (discolightcontroller.isRed == true && isDancing)
+        {
+            StartCoroutine(VanishObjectSlowly(1.5f));
+        }
+
     }
 
     private IEnumerator PerformRandomDanceMoves()
@@ -35,9 +57,9 @@ public class AnimalDancer : MonoBehaviour
                         StartCoroutine(PerformDanceMove1());
                         break;
                     case 2:
-                        StartCoroutine(PerformDanceMove2());
+                        StartCoroutine(PerformDanceMove2()); 
                         break;
-                    case 3:
+                    case 3:                       
                         StartCoroutine(PerformDanceMove3());
                         break;
                 }
@@ -86,7 +108,6 @@ public class AnimalDancer : MonoBehaviour
         isDancing = true;
         startPosition = transform.position;
         float time = 0f;
-
         Vector3 circleCenter = startPosition - (Vector3.right * moveDistance);
         float angle = 360f;
         while (time < moveDuration)
@@ -106,6 +127,7 @@ public class AnimalDancer : MonoBehaviour
         float endAngle = 720f; // Two full rotations (2 * 360)
         float time = 0f;
 
+
         while (time < rotationDuration)
         {
             time += Time.deltaTime;
@@ -118,4 +140,32 @@ public class AnimalDancer : MonoBehaviour
         transform.rotation = Quaternion.identity;
         isDancing = false;
     }
+
+
+    private IEnumerator VanishObjectSlowly(float duration)
+    {
+        Renderer objectRenderer = GetComponent<Renderer>();
+        Color startColor = objectRenderer.material.color;
+        Color endColor = new Color(startColor.r, startColor.g, startColor.b, 0f);
+
+        float time = 0f;
+        while (time < duration)
+        {
+
+            if (inputtracker.isSquidGameMode == false)
+            {
+                objectRenderer.material.color = new Color(1f, 1f, 1f, 1f);
+                objectRenderer.enabled = true;
+                break;
+            }
+            time += Time.deltaTime;
+            objectRenderer.material.color = Color.Lerp(startColor, endColor, time / duration);
+            yield return null;
+        }
+
+        objectRenderer.material.color = endColor;
+        objectRenderer.enabled = false;
+    }
+
+
 }

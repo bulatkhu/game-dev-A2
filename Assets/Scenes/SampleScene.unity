@@ -1733,6 +1733,7 @@ MonoBehaviour:
   - {fileID: 835310470}
   - {fileID: 1378135628}
   dogeSprite: {fileID: 21300000, guid: 0d4f0a4b68920f7459fde8ad2d50ea20, type: 3}
+  isSquidGameMode: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1787,7 +1788,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.439505
+  orthographic size: 5.3897214
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

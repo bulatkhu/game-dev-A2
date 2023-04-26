@@ -12,6 +12,10 @@ public class InputTracker : MonoBehaviour
     public Sprite dogeSprite;
     private List<Sprite> originalAnimalSprites;
 
+
+    public bool isSquidGameMode = false;
+
+
     void Start()
     {
         originalAnimalSprites = new List<Sprite>();
@@ -71,6 +75,15 @@ public class InputTracker : MonoBehaviour
             }
 
 
+
+
+            // SQUIDGAME BLOCK
+            if (inputString.Contains("squidgame"))
+            {
+                isSquidGameMode = true;
+                inputString = "";
+
+            }
         }
     }
 }
